@@ -1,0 +1,59 @@
+/* Fichier: style.css */
+
+/* Section Hero */
+.hero {
+    background: url('path_to_your_hero_image.jpg') no-repeat center center;
+    background-size: cover;
+    height: 70vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  /* Logo */
+  .logo {
+    width: 150px; /* Ajustez cette taille en fonction de vos besoins */
+  }
+  
+  /* Section Compétences */
+  .competence-img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Formulaire */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+    color: #333;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
